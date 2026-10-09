@@ -1,0 +1,18 @@
+# 构建产物
+*.o
+*.obj
+rk3566_gui
+rk_gui
+*.a
+*.so
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 课程参考代码（非本团队编写，见 reference/README.md）
+reference/bmp_display.c
+reference/bmp_display.h
